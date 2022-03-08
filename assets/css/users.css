@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+body{
+    list-style-type: none;
+}
+h1{
+  margin: 1cm;
+   text-align: center; 
+   
+}
+div{
+     display: flex;
+}
+ul{
+   box-sizing: border-box ;
+   height: 4cm;
+   width:fit-content;
+   text-align: center;
+   background-color: rgb(43, 105, 126);
+   padding: 1cm;
+   list-style-type: none;
+   margin-top: 2cm;
+   
+}
+li{
+    font-size: large;
+    font-weight: 800;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+<body>
+    <h1>operations</h1>
+    <div>
+        <form action="/operation-1/<%=user._id%>" method="post">
+            <input type="number" name="value1" required>
+            <input type="number" name="value2" required>
+            <input type="number" name="value3" required>
+            <input type="number" name="value4" required>
+            <input type="number" name="value5" required>
+            <input type="submit" value="Enter">
+            
+        </form>
+    </div>
+
+    <h1>Operations Results</h1>   
+    <div>
+        <li id="average">Average : 0</li>
+        <li id="mini" >Minimum : 0</li>
+        <li id="maxi" >Maximum : 0</li>
+
+    </div>
+
+    <script src="js/operations.js"></script>
+    <script><%=user.operations.value1%></script>
+    <script><%=user.operations.value2%></script>
+    <script><%=user.operations.value3%></script>
+    <script><%=user.operations.value4%></script>
+    <script><%=user.operations.value5%></script>
+
+
+
+</body>
+</html>
